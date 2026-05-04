@@ -1,37 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-29T16:46:19 GMT-04:00" name="Selenium Portfolio Suite" finished-at="2026-04-29T16:46:24 GMT-04:00" duration-ms="5374">
+  <suite started-at="2026-05-04T11:51:25 GMT-04:00" name="Selenium Portfolio Suite" finished-at="2026-05-04T11:51:48 GMT-04:00" duration-ms="22724">
     <groups>
     </groups>
-    <test started-at="2026-04-29T16:46:19 GMT-04:00" name="Login Tests" finished-at="2026-04-29T16:46:24 GMT-04:00" duration-ms="5374">
+    <test started-at="2026-05-04T11:51:25 GMT-04:00" name="Login Tests" finished-at="2026-05-04T11:51:33 GMT-04:00" duration-ms="8305">
       <class name="com.neha.tests.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.neha.tests.LoginTest@1bb5a082]" started-at="2026-04-29T16:46:19 GMT-04:00" name="setUp" finished-at="2026-04-29T16:46:21 GMT-04:00" duration-ms="1957" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.neha.tests.LoginTest@1bb5a082]" started-at="2026-05-04T11:51:25 GMT-04:00" name="setUp" finished-at="2026-05-04T11:51:28 GMT-04:00" duration-ms="3130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testInvalidLogin()[pri:0, instance:com.neha.tests.LoginTest@1bb5a082]" started-at="2026-04-29T16:46:21 GMT-04:00" name="testInvalidLogin" description="Invalid login should show error message" finished-at="2026-04-29T16:46:22 GMT-04:00" duration-ms="853" status="PASS">
+        <test-method signature="testInvalidLogin()[pri:0, instance:com.neha.tests.LoginTest@1bb5a082]" started-at="2026-05-04T11:51:28 GMT-04:00" name="testInvalidLogin" description="Invalid login should show error message" finished-at="2026-05-04T11:51:30 GMT-04:00" duration-ms="1389" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.neha.tests.LoginTest@1bb5a082]" started-at="2026-04-29T16:46:22 GMT-04:00" name="tearDown" finished-at="2026-04-29T16:46:22 GMT-04:00" duration-ms="339" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.neha.tests.LoginTest@1bb5a082]" started-at="2026-05-04T11:51:30 GMT-04:00" name="tearDown" finished-at="2026-05-04T11:51:30 GMT-04:00" duration-ms="555" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.neha.tests.LoginTest@1bb5a082]" started-at="2026-04-29T16:46:22 GMT-04:00" name="setUp" finished-at="2026-04-29T16:46:23 GMT-04:00" duration-ms="1035" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.neha.tests.LoginTest@1bb5a082]" started-at="2026-05-04T11:51:30 GMT-04:00" name="setUp" finished-at="2026-05-04T11:51:31 GMT-04:00" duration-ms="1249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testValidLogin()[pri:0, instance:com.neha.tests.LoginTest@1bb5a082]" started-at="2026-04-29T16:46:23 GMT-04:00" name="testValidLogin" description="Valid login should lead to products page" finished-at="2026-04-29T16:46:24 GMT-04:00" duration-ms="860" status="PASS">
+        <test-method signature="testValidLogin()[pri:0, instance:com.neha.tests.LoginTest@1bb5a082]" started-at="2026-05-04T11:51:31 GMT-04:00" name="testValidLogin" description="Valid login should lead to products page" finished-at="2026-05-04T11:51:33 GMT-04:00" duration-ms="1434" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.neha.tests.LoginTest@1bb5a082]" started-at="2026-04-29T16:46:24 GMT-04:00" name="tearDown" finished-at="2026-04-29T16:46:24 GMT-04:00" duration-ms="258" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.neha.tests.LoginTest@1bb5a082]" started-at="2026-05-04T11:51:33 GMT-04:00" name="tearDown" finished-at="2026-05-04T11:51:33 GMT-04:00" duration-ms="451" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.neha.tests.LoginTest -->
     </test> <!-- Login Tests -->
+    <test started-at="2026-05-04T11:51:33 GMT-04:00" name="Add Products Tests" finished-at="2026-05-04T11:51:43 GMT-04:00" duration-ms="9740">
+      <class name="com.neha.tests.ProductsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.neha.tests.ProductsTest@41a2befb]" started-at="2026-05-04T11:51:33 GMT-04:00" name="setUp" finished-at="2026-05-04T11:51:35 GMT-04:00" duration-ms="1242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.neha.tests.ProductsTest@41a2befb]" started-at="2026-05-04T11:51:35 GMT-04:00" name="login" finished-at="2026-05-04T11:51:36 GMT-04:00" duration-ms="1418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="testAddToCart()[pri:0, instance:com.neha.tests.ProductsTest@41a2befb]" started-at="2026-05-04T11:51:36 GMT-04:00" name="testAddToCart" description="Adding item to cart should update cart badge" finished-at="2026-05-04T11:51:37 GMT-04:00" duration-ms="562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.neha.tests.ProductsTest@41a2befb]" started-at="2026-05-04T11:51:37 GMT-04:00" name="tearDown" finished-at="2026-05-04T11:51:37 GMT-04:00" duration-ms="430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.neha.tests.ProductsTest@41a2befb]" started-at="2026-05-04T11:51:37 GMT-04:00" name="setUp" finished-at="2026-05-04T11:51:38 GMT-04:00" duration-ms="1244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.neha.tests.ProductsTest@41a2befb]" started-at="2026-05-04T11:51:38 GMT-04:00" name="login" finished-at="2026-05-04T11:51:40 GMT-04:00" duration-ms="1367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="testProductIsDisplayed()[pri:0, instance:com.neha.tests.ProductsTest@41a2befb]" started-at="2026-05-04T11:51:40 GMT-04:00" name="testProductIsDisplayed" description="Specific product should be visible on the page" finished-at="2026-05-04T11:51:40 GMT-04:00" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductIsDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.neha.tests.ProductsTest@41a2befb]" started-at="2026-05-04T11:51:40 GMT-04:00" name="tearDown" finished-at="2026-05-04T11:51:40 GMT-04:00" duration-ms="444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.neha.tests.ProductsTest@41a2befb]" started-at="2026-05-04T11:51:40 GMT-04:00" name="setUp" finished-at="2026-05-04T11:51:41 GMT-04:00" duration-ms="1080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.neha.tests.ProductsTest@41a2befb]" started-at="2026-05-04T11:51:41 GMT-04:00" name="login" finished-at="2026-05-04T11:51:43 GMT-04:00" duration-ms="1319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="testProductsPageLoads()[pri:0, instance:com.neha.tests.ProductsTest@41a2befb]" started-at="2026-05-04T11:51:43 GMT-04:00" name="testProductsPageLoads" description="Products page should load with correct title" finished-at="2026-05-04T11:51:43 GMT-04:00" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductsPageLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.neha.tests.ProductsTest@41a2befb]" started-at="2026-05-04T11:51:43 GMT-04:00" name="tearDown" finished-at="2026-05-04T11:51:43 GMT-04:00" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.neha.tests.ProductsTest -->
+    </test> <!-- Add Products Tests -->
+    <test started-at="2026-05-04T11:51:43 GMT-04:00" name="Checkout Tests" finished-at="2026-05-04T11:51:48 GMT-04:00" duration-ms="4616">
+      <class name="com.neha.tests.CheckoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.neha.tests.CheckoutTest@63475ace]" started-at="2026-05-04T11:51:43 GMT-04:00" name="setUp" finished-at="2026-05-04T11:51:44 GMT-04:00" duration-ms="1078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginAndAddToCart()[pri:0, instance:com.neha.tests.CheckoutTest@63475ace]" started-at="2026-05-04T11:51:44 GMT-04:00" name="loginAndAddToCart" finished-at="2026-05-04T11:51:46 GMT-04:00" duration-ms="1872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndAddToCart -->
+        <test-method signature="testFullCheckoutFlow()[pri:0, instance:com.neha.tests.CheckoutTest@63475ace]" started-at="2026-05-04T11:51:46 GMT-04:00" name="testFullCheckoutFlow" description="Completing checkout should show order confirmation" finished-at="2026-05-04T11:51:47 GMT-04:00" duration-ms="1091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFullCheckoutFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.neha.tests.CheckoutTest@63475ace]" started-at="2026-05-04T11:51:47 GMT-04:00" name="tearDown" finished-at="2026-05-04T11:51:48 GMT-04:00" duration-ms="566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.neha.tests.CheckoutTest -->
+    </test> <!-- Checkout Tests -->
   </suite> <!-- Selenium Portfolio Suite -->
 </testng-results>
