@@ -3,14 +3,14 @@
 <suite name="Failed suite [Selenium Portfolio Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Login Tests(failed)">
     <classes>
-      <class name="com.neha.tests.LoginTest">
+      <class name="com.neha.tests.ProductsTest">
         <methods>
-          <include name="testValidLogin"/>
-          <include name="testInvalidLogin"/>
+          <include name="login"/>
           <include name="tearDown"/>
+          <include name="testAddToCart"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.neha.tests.LoginTest -->
+      </class> <!-- com.neha.tests.ProductsTest -->
     </classes>
   </test> <!-- Login Tests(failed) -->
 </suite> <!-- Failed suite [Selenium Portfolio Suite] -->
