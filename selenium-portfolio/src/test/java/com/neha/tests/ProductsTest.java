@@ -16,13 +16,14 @@ public class ProductsTest extends BaseTest {
         loginPage.open();
         loginPage.login("standard_user", "secret_sauce");
     }
-
+	
 	@Test(description = "Products page should load with correct title")
     public void testProductsPageLoads() {
         ProductsPage productsPage = new ProductsPage(driver);
         Assert.assertEquals(productsPage.getPageTitle(), "Products",
             "Products page title should be 'Products'");
     }
+	
 
     @Test(description = "Adding item to cart should update cart badge")
     public void testAddToCart() {
@@ -32,7 +33,7 @@ public class ProductsTest extends BaseTest {
         Assert.assertEquals(productsPage.getCartBadgeCount(), "2",
             "Cart badge should show 2 after adding one item");
     }
-
+	
     @Test(description = "Specific product should be visible on the page")
     public void testProductIsDisplayed() {
         ProductsPage productsPage = new ProductsPage(driver);

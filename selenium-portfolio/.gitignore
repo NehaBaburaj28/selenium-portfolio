@@ -1,3 +1,6 @@
 /target/
 /testng2.xml
 /test-output/
+/reports/
+/screenshots/
+/.allure/
