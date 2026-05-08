@@ -8,16 +8,18 @@ import com.neha.pages.LoginPage;
 
  public class LoginTest extends BaseTest {
 	 
+
 	@Test(description="Valid login should lead to products page")
 	public void testValidLogin(){
 		LoginPage loginPage = new LoginPage(driver);
 		loginPage.open();
-		loginPage.login("standard_user", "secret_sauce");
+		loginPage.login("standard_user1", "secret_sauce1");
 		
 		String currentURL=driver.getCurrentUrl();
 		Assert.assertTrue(currentURL.contains("inventory"),"Expected to land on inventory page after login");		
 	}
 	
+
 	@Test(description="Invalid login should show error message")
 	public void testInvalidLogin(){
 		LoginPage loginPage = new LoginPage(driver);

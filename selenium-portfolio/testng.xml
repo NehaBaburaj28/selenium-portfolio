@@ -3,6 +3,7 @@
 <suite name="Selenium Portfolio Suite" verbose="1">
 
 	<listeners>
+		<!-- <listener class-name="io.qameta.allure.testng.AllureTestNg"/>	-->
 		<listener class-name="com.neha.base.ScreenshotListener"/>
 	</listeners>
 	
@@ -12,7 +13,7 @@
         </classes>
     </test>
 
-	<!--<test name="Add Products Tests">
+	<test name="Add Products Tests">
 		<classes>
 			<class name="com.neha.tests.ProductsTest"/>
 		</classes>
@@ -22,6 +23,6 @@
         <classes>
             <class name="com.neha.tests.CheckoutTest"/>
         </classes>
-    </test>  --> 
+    </test>  
     
 </suite>

@@ -19,7 +19,7 @@ public class BaseTest {
     public void setUp() {
         WebDriverManager.chromedriver().setup();  // Automatically download correct ChromeDriver 
         ChromeOptions options = new ChromeOptions();
-
+        options.addArguments("--headless");
         // Disable password manager popups completely
         options.addArguments("--disable-save-password-bubble");
         options.addArguments("--disable-features=PasswordLeakDetection");
